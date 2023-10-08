@@ -16,6 +16,7 @@ public class TesteLeitura {
 		// Fluxo de entrada com um arquivo
 		InputStream fileInputStream = new FileInputStream("lorem.txt"); // criando o fluxo completo com arquivo, mas binário. // read() -> bits e bytes
 		Reader inputStreamReader = new InputStreamReader(fileInputStream); // melhorando os dados binários para caracteres // read() -> caracteres(char)
+
 		BufferedReader bufferedReader = new BufferedReader(inputStreamReader); // esse cara vai pegar o reader e já devolver um linha inteira char -> linha. ou seja, vai pegar os chars e montar uma linha completa.
 		
 		String linha;
@@ -25,6 +26,14 @@ public class TesteLeitura {
 			rowNumber++;
 		}
 		bufferedReader.close();
+		
+		/*  this comment is other way of print all lines		
+		char[] charet = new char[1024];
+		
+		inputStreamReader.read(charet);
+		
+		System.out.println("charret: " + new String(charet));
+*/
 	}
 
 }
