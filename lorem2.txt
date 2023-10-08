@@ -1,4 +1,1 @@
-Testando escrita de arquivo
-Testando escrita de arquivo
-
-Após duas linhas
+teste
