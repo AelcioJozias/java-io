@@ -9,6 +9,8 @@ public class TesteLeitura {
 
 	public static void main(String[] args) throws IOException {
 		
+		// rapare que quando chamamos o arquivo "lorem.txt", o java vai para a raiz do projeto, seguindo desse ponto como caminho relativo
+		
 		// Fluxo de entrada com um arquivo
 		FileInputStream fileInputStream = new FileInputStream("lorem.txt"); // criando o fluxo completo com arquivo, mas binário. // read() -> bits e bytes
 		InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream); // melhorando os dados binários para caracteres // read() -> caracteres(char)
