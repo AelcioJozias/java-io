@@ -1,3 +1,3 @@
 # java-io
 
-My studies about java.io, focus on how read and write files, getting from an binarie stream, in my case, just some files.
+My studies focus on java.io, specifically on how to read and write files from a binary stream, in my case, just a few specific files
